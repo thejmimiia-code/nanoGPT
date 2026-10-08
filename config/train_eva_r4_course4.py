@@ -23,10 +23,10 @@ n_embd = 512
 dropout = 0.1
 bias = False
 
-# LR schedule sur 50k nouvelles itérations
+# LR schedule sur 50k nouvelles itérations (reprise iter 50k → cible 100k)
 learning_rate = 3e-4        # réduit vs 1e-3 (modèle partiellement convergé)
-max_iters = 50000
-lr_decay_iters = 48000
+max_iters = 100000
+lr_decay_iters = 98000
 min_lr = 3e-5
 beta2 = 0.99
 warmup_iters = 200
