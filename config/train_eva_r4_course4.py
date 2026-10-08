@@ -36,3 +36,4 @@ grad_clip = 1.0
 device = 'cuda'
 dtype = 'float16'
 compile = False
+wddm_sleep_ms = 13  # ~5% idle → GPU stable à ~93-95% sur RTX 2070 SUPER WDDM
